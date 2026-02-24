@@ -238,3 +238,31 @@ body {
     justify-content: center;
 
 }
+
+.frame-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.small-header {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #645c55;
+    margin-bottom: 13px;
+}
+
+.big-header {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 108%;
+    text-align: center;
+    color: #1b1a1a;
+}
