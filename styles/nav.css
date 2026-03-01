@@ -412,3 +412,67 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.frame__team {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 136px 0;
+}
+
+.frame__team-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35%;
+
+}
+
+.frame__team-header {
+    font-size: 32px;
+    line-height: 119%;
+    color: #403e3b;
+}
+
+.frame__team-additional-text {
+    font-size: 15px;
+    line-height: 160%;
+    color: #645c55;
+}
+
+.container-team {
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 60px;
+}
+
+.teamate-avatar {
+    width: calc(50% - 30px);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container-person-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.person__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.teammate-name {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+.teammate-disc {
+    font-size: 14px;
+    color: #645c55;
+    margin: 0;
+}
