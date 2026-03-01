@@ -516,5 +516,28 @@ body {
     line-height: 150%;
     letter-spacing: 0.03em;
     color: #1b1a1a;
+}
 
+
+
+.frame__basement {
+    display: flex;
+    
+}
+.frame__basement-container-logo {
+    padding-top: 62px;
+    width: 50%;
+}
+.frame__basement-text {
+    font-size: 14px;
+    line-height: 143%;
+    color: #645c55;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+.frame__basement-social-logos {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
