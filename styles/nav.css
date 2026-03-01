@@ -476,3 +476,45 @@ body {
     color: #645c55;
     margin: 0;
 }
+
+.frame__get {
+    display: flex;
+    align-items: center;
+    background: #cec4bc;
+    padding: 136px 100px;
+    margin-top: 100px;
+}
+
+.frame__get-container-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.frame__get-header {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #645c55;
+}
+
+.frame__get-disc {
+    font-size: 40px;
+    line-height: 105%;
+    color: #1b1a1a;
+}
+
+.frame__get-container-btn {
+    padding-left: 30%;
+
+}
+
+.frame__get-btn {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #1b1a1a;
+
+}
